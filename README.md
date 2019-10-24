@@ -34,10 +34,10 @@ Reply
 ```
 
 Params is in the following order
-	1. job_id 
-	2. block header (100 bytes)
-	3. nbits
-	4. clean job flag
+1. job_id 
+2. block header (100 bytes)
+3. nbits
+4. clean job flag
 
 ### 4.pool->miner - Difficulty adjustment
 
