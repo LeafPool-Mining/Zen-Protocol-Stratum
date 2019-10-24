@@ -1,4 +1,4 @@
-# Zen-Protocol Stratum Mining Specification
+# Zen-Protocol Leafpool's Stratum Mining Specification
 
 ### 1.miner->pool - Miner subscribe
 
