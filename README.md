@@ -1,4 +1,4 @@
-# Zen-Protocol Leafpool's Stratum Mining Specification
+## Zen-Protocol Leafpool's Stratum Mining Specification
 
 
 ### mining.subscribe
@@ -84,6 +84,10 @@ By protocol, ZP's nonce is 8 bytes long. The miner will pick nonce2 such that le
 
 nonce2 is appended on nonce-prefix given on mining.subscribe.
 
+
+
+
+
 ```
 Example
 
@@ -96,4 +100,5 @@ block_header_with_nonce = block_header + nonce(on byte 97-100) = 000000000000000
 block_hash = sha3(block_header_with_nonce) = 422f20e4ed54d4d7db61a6bfe04d03e04955d2bb97ef126c71a9cebfbc5cfab5
 
 ```
+
 You can check the implementation of the stratum on this miner https://github.com/ZenProtocol-Pool/ccminer-zp
